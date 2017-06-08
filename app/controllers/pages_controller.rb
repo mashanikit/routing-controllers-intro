@@ -1,8 +1,12 @@
 class PagesController < ApplicationController
 
   def welcome
-    render :about
+    render :welcome
   end
+
+  def about
+    render :about
+  end 
 
 
 end
